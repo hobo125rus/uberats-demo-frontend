@@ -134,9 +134,7 @@ body {
 }
 
 .row {
-    width: 100%;
-    height: 72px;
-    
+    width: 100%;  
 }
 
 .container {
@@ -144,8 +142,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 320px;
-    height: 151px;
-
 }
 
 .container1 {
@@ -368,6 +364,93 @@ h4 {
 .footer {
     
     background-color: #262626;
+    color: #fff;
     height: 862px;;
     margin-top: 48px;
+
+}
+
+.footer__logo {
+    border-bottom: 1px solid #ffffff;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.footer__form {
+    margin-top: 32px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.footer__select {
+    display: block; 
+    font-size: 13px;
+    line-height: 15px;
+    color: #fff;
+    border: 1px solid #3b3b3b;
+    border-radius: 2px;
+    padding: 12px 71px 12px 48px;
+    appearance: none;
+    -moz-appearance: none;
+    background: url("./../../img/world.svg") 16px no-repeat, url("./../../img/arrow.svg") no-repeat 151px #3b3b3b;
+}
+
+.footer__hashtag {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 32px;
+}
+
+.footer__hashtag-label {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer__icon-block {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
+.footer__links {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 39px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer__link {
+    color: #fff;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.footer__apps {
+    padding-bottom: 24px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 24px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer__img {
+    display: inline;
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
+.footer__copyright {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.footer__copyright-img{
+    position: absolute;
+    top: 65px; 
+    right: 8px;
 }
