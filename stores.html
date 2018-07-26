@@ -1,186 +1,212 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>UBER EATS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.css"
+    />
     <link rel="stylesheet" type="text/css" media="screen" href="css/uberats/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
 </head>
+
 <body>
     <header class="top">
         <div class="container">
 
-        <div class="row">
+            <div class="row">
 
-            <div class="logo">
-                <img class="logo__img" src="img/logo.svg" alt="UBER EATS LOGO">
-            </div>
-            <div class="buttons_block">
+                <div class="logo">
+                    <img class="logo__img" src="img/logo.svg" alt="UBER EATS LOGO">
+                </div>
+                <div class="buttons_block">
 
                     <button class="button button-signin" name="sign_in_btn" type="submit">Sign In</button>
                     <button class="button button-register" name="register_btn" type="submit">Register</button>
                     <button class="button-basket" name="basket_btn"></button>
 
-            </div>
-        
-
-            <div class="search-panel">
-                <div class="search__img-logo">
-                    <img src="img/shape.png" alt="">
-                </div>
-                <div class="search__input">
-                    <input class="search__input-text" type="text" name="search_restaurants" placeholder="Search for restaurant of cuisine">
                 </div>
 
+
+                <div class="search-panel">
+                    <div class="search__img-logo">
+                        <img src="img/shape.png" alt="">
+                    </div>
+                    <div class="search__input">
+                        <input class="search__input-text" type="text" name="search_restaurants" placeholder="Search for restaurant of cuisine">
+                    </div>
+
+                </div>
             </div>
-        </div>
         </div>
 
     </header>
     <main>
-           
-      <div class="container">
-        <div class="row">
-        <div class="col-xs-12">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
 
 
-            <div class="geotag-panel">
-                <form action="geotag-form">
-                    <label class="geotag-form__label">When
-                        <select class="geotag-form__time" name="time">
-                            <option value="ASAP" class="asap">ASAP</option>
-                        </select>
-                    </label>
-                    <label class="geotag-form__label">To
-                        <input class="geotag-form__location" type="text" .placeholder="ul.Bolshaya Dmitrovka, 22" value="ul.Bolshaya Dmitrovka, 22">
-                    </label>
-                </form>
-                     
-               
-  
-            </div>
-            <h1>Moscow Restaurants</h1>
-            <div class="rest-card">
-                <img class="rest-card__img" src="img/photo_1.jpg" alt="">
-                <h2>Макдоналдс - Газетный</h2>
-                <h3>₽₽ • Бургеры</h3>
-                <h4>25 - 35 Min</h4>
-            </div>
+                    <div class="geotag-panel">
+                        <form action="geotag-form">
+                            <label class="geotag-form__label">When
+                                <select class="geotag-form__time" name="time">
+                                    <option value="ASAP" class="asap">ASAP</option>
+                                </select>
+                            </label>
+                            <label class="geotag-form__label">To
+                                <input class="geotag-form__location" type="text" value="ul.Bolshaya Dmitrovka, 22">
+                            </label>
+                        </form>
 
-            <div class="rest-card">
-                    <img class="rest-card__img" src="img/photo_2.jpg" alt="">
-                    <h2>DimSum & Co — ЦДМ</h2>
-                    <h3>₽ • Японская • Китайская • Азиатская</h3>
-                    <h4>40 - 50 Min</h4>
-                </div>
-                <div class="rest-card">
+
+
+                    </div>
+                    <h1>Moscow Restaurants</h1>
+                    <div class="rest-card">
+                        <img class="rest-card__img" src="img/photo_1.jpg" alt="">
+                        <h2>Макдоналдс - Газетный</h2>
+                        <h3>₽₽ • Бургеры</h3>
+                        <h4>25 - 35 Min</h4>
+                    </div>
+
+                    <div class="rest-card">
+                        <img class="rest-card__img" src="img/photo_2.jpg" alt="">
+                        <h2>DimSum & Co — ЦДМ</h2>
+                        <h3>₽ • Японская • Китайская • Азиатская</h3>
+                        <h4>40 - 50 Min</h4>
+                    </div>
+                    <div class="rest-card">
                         <img class="rest-card__img" src="img/photo_3.jpg" alt="">
                         <h2>ДвижОК — Манежная</h2>
                         <h3>₽ • Американская • Европейская</h3>
                         <h4>35 - 45 Min</h4>
                     </div>
                     <div class="rest-card">
-                            <img class="rest-card__img" src="img/photo_4.jpg" alt="">
-                            <h2>НЯ — NHA</h2>
-                            <h3>₽₽ • Вьетнамская</h3>
-                            <h4>30 - 40 Min</h4>
-                        </div>
-                                               
-                        <div class="rest-card rest-card_show">
-                                <img class="rest-card__img" src="img/photo_5.jpg" alt="">
-                                <h2>Точка Дзы — Цветной</h2>
-                                <h3>₽₽ • Вьетнамская</h3>
-                                <h4>40 - 50 Min</h4>
-                            </div>
-                            <div class="rest-card rest-card_show">
-                                    <img class="rest-card__img" src="img/photo_6.jpg" alt="">
-                                    <h2>Cinnabon</h2>
-                                    <h3>₽ • Выпечка • Десерты • Капкейки</h3>
-                                    <h4>25 - 35 Min</h4>
-                                </div>
-                                <div class="rest-card rest-card_show">
-                                        <img class="rest-card__img" src="img/photo_7.jpg" alt="">
-                                        <h2>PIZZELOVE</h2>
-                                        <h3>₽₽ • Пицца</h3>
-                                        <h4>15 - 25 Min</h4>
-                                    </div>
-                                    <div class="rest-card rest-card_show">
-                                            <img class="rest-card__img" src="img/photo_8.jpg" alt="">
-                                            <h2>Zю кафе — Тверская</h2>
-                                            <h3>₽₽ • Японская</h3>
-                                            <h4>25 - 35 Min</h4>
-                                        </div>
-                                        <div class="rest-card rest-card_show">
-                                                <img class="rest-card__img" src="img/photo_9.jpg" alt="">
-                                                <h2>Bar BQ Cafe — Манежная</h2>
-                                                <h3>₽₽₽ • Европейская</h3>
-                                                <h4>30 - 40 Min</h4>
-                                            </div>  
+                        <img class="rest-card__img" src="img/photo_4.jpg" alt="">
+                        <h2>НЯ — NHA</h2>
+                        <h3>₽₽ • Вьетнамская</h3>
+                        <h4>30 - 40 Min</h4>
+                    </div>
+
+                    <div class="rest-card rest-card_show">
+                        <img class="rest-card__img" src="img/photo_5.jpg" alt="">
+                        <h2>Точка Дзы — Цветной</h2>
+                        <h3>₽₽ • Вьетнамская</h3>
+                        <h4>40 - 50 Min</h4>
+                    </div>
+                    <div class="rest-card rest-card_show">
+                        <img class="rest-card__img" src="img/photo_6.jpg" alt="">
+                        <h2>Cinnabon</h2>
+                        <h3>₽ • Выпечка • Десерты • Капкейки</h3>
+                        <h4>25 - 35 Min</h4>
+                    </div>
+                    <div class="rest-card rest-card_show">
+                        <img class="rest-card__img" src="img/photo_7.jpg" alt="">
+                        <h2>PIZZELOVE</h2>
+                        <h3>₽₽ • Пицца</h3>
+                        <h4>15 - 25 Min</h4>
+                    </div>
+                    <div class="rest-card rest-card_show">
+                        <img class="rest-card__img" src="img/photo_8.jpg" alt="">
+                        <h2>Zю кафе — Тверская</h2>
+                        <h3>₽₽ • Японская</h3>
+                        <h4>25 - 35 Min</h4>
+                    </div>
+                    <div class="rest-card rest-card_show">
+                        <img class="rest-card__img" src="img/photo_9.jpg" alt="">
+                        <h2>Bar BQ Cafe — Манежная</h2>
+                        <h3>₽₽₽ • Европейская</h3>
+                        <h4>30 - 40 Min</h4>
+                    </div>
+                </div>
             </div>
-        </div>
-  
+
 
         </div>
     </main>
     <footer>
-            
-            <div class="container1">
-                <div class="footer">
-                    <div class="row">
-                        <div class="col-xs-12">
-                          <div class="footer__logo">
-                              <br><br>
-                              <img src="img/white-logo.svg" alt="">
-                              <br><br>
-                          </div>
-                          <div class="footer__form">
-                              <form action="#">
-                                  <select class="footer__select" name="language" id="">
-                                      <option class="language" value="ENGLISH">ENGLISH</option>
-                                  </select>
-                              </form>
-                          </div>
-                          <div class="footer__hashtag">
-                              <img src="img/tag.svg" alt="">
-                              <span class="footer__hashtag-label">UberEats</span>
-                          </div>
-                          <div class="footer__icon-block">
-                              <img src="img/facebook.svg" alt="">
-                              <img src="img/twitter.svg" alt="">
-                              <img src="img/instagram.svg" alt="">
-                          </div>
-                          <div class="footer__links">
-                              <p><a class="footer__link" href="#">About UberEats</a></p>
-                              <p><a class="footer__link" href="#">Become a Delivery Partner</a></p>
-                              <p><a class="footer__link" href="#">Become a Restaurant Partner</a></p>
-                              <p><a class="footer__link" href="#">See all cities</a></p>
-                              <p><a class="footer__link" href="#">Pricing</a></p>
-                              <p><a class="footer__link" href="#">Help</a></p>
-                              <p><a class="footer__link" href="#">FAQs</a></p>
-                          </div>
-                          <div class="footer__apps">
-                              <div class="footer__img">
-                              <img src="img/apple_store.png" alt="">
+
+        <div class="container1">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="footer__logo">
+                            <br>
+                            <br>
+                            <img src="img/white-logo.svg" alt="">
+                            <br>
+                            <br>
+                        </div>
+                        <div class="footer__form">
+                            <form action="#">
+                                <select class="footer__select" name="language" id="">
+                                    <option class="language" value="ENGLISH">ENGLISH</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="footer__hashtag">
+                            <img src="img/tag.svg" alt="">
+                            <span class="footer__hashtag-label">UberEats</span>
+                        </div>
+                        <div class="footer__icon-block">
+                            <img src="img/facebook.svg" alt="">
+                            <img src="img/twitter.svg" alt="">
+                            <img src="img/instagram.svg" alt="">
+                        </div>
+                        <div class="footer__links">
+                            <p>
+                                <a class="footer__link" href="#">About UberEats</a>
+                            </p>
+                            <p>
+                                <a class="footer__link" href="#">Become a Delivery Partner</a>
+                            </p>
+                            <p>
+                                <a class="footer__link" href="#">Become a Restaurant Partner</a>
+                            </p>
+                            <p>
+                                <a class="footer__link" href="#">See all cities</a>
+                            </p>
+                            <p>
+                                <a class="footer__link" href="#">Pricing</a>
+                            </p>
+                            <p>
+                                <a class="footer__link" href="#">Help</a>
+                            </p>
+                            <p>
+                                <a class="footer__link" href="#">FAQs</a>
+                            </p>
+                        </div>
+                        <div class="footer__apps">
+                            <div class="footer__img">
+                                <img src="img/apple_store.png" alt="">
                             </div>
                             <div class="footer__img">
-                              <img src="img/google_play.png" alt="">
+                                <img src="img/google_play.png" alt="">
                             </div>
-                          </div>
-                          <div class="footer__copyright">
-                              <p>© 2017 Uber Technologies Inc.</p>
-                              <p><a class="footer__link" href="#">Privacy</a></p>
-                              <p><a class="footer__link" href="#">Terms</a></p>
-                              <div class="footer__copyright-img">
-                                  <a href="#top"><img src="img/btn-up.png" alt=""></a>
-                              </div>
-                          </div>
-                      </div>
+                        </div>
+                        <div class="footer__copyright">
+                            <p>© 2017 Uber Technologies Inc.</p>
+                            <p>
+                                <a class="footer__link" href="#">Privacy</a>
+                            </p>
+                            <p>
+                                <a class="footer__link" href="#">Terms</a>
+                            </p>
+                            <div class="footer__copyright-img">
+                                <a href="#top">
+                                    <img src="img/btn-up.png" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>
