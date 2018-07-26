@@ -1,5 +1,4 @@
-
-@media screen and (min-width: 320px){
+@media screen and (min-width: 320px) {
     .col-xs-1 {
         width: 8.3333%;
     }
@@ -36,12 +35,9 @@
     .col-xs-12 {
         width: 100%;
     }
+}
 
-
-  }
-
-
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .col-sm-1 {
         width: 8.3333%;
     }
@@ -78,18 +74,15 @@
     .col-sm-12 {
         width: 100%;
     }
-
     .container {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 768px;
     }
-
 }
 
-
-@media screen and (max-width: 1124px){
+@media screen and (max-width: 1124px) {
     .col-lg-1 {
         width: 8.3333%;
     }
@@ -126,7 +119,6 @@
     .col-lg-12 {
         width: 100%;
     }
-
 }
 
 body {
@@ -134,7 +126,7 @@ body {
 }
 
 .row {
-    width: 100%;  
+    width: 100%;
 }
 
 .container {
@@ -149,9 +141,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 320px;
-    
-   
-
 }
 
 .container2 {
@@ -159,11 +148,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 320px;
-   
-
 }
-
-
 
 .logo {
     display: inline-block;
@@ -174,11 +159,9 @@ body {
 .logo__img {
     height: 11px;
     width: 107px;
-
 }
 
-
-.buttons_block{
+.buttons_block {
     display: inline-block;
     box-sizing: border-box;
 }
@@ -194,7 +177,6 @@ body {
     margin-top: 16px;
     margin-bottom: 16px;
     padding: 0px;
-
 }
 
 .button-signin {
@@ -212,99 +194,91 @@ body {
 
 .button-basket {
     display: none;
- }
+}
 
- .rest-card_show{
+.rest-card_show {
     display: none;
 }
 
- @media (min-width: 768px) {
+@media (min-width: 768px) {
     .button-basket {
-      display: inline-block;
-      width: 20px;
-      height: 23px;
-      background: url("../../img/basket.png") no-repeat;
-      border: none;
+        display: inline-block;
+        width: 20px;
+        height: 23px;
+        background: url("../../img/basket.png") no-repeat;
+        border: none;
     }
-    .rest-card_show{
+    .rest-card_show {
         display: block;
     }
-  }
+}
 
 .search-panel {
-  width: 308px;
-  height: 48px;
-  margin-left: 8px;
-  margin-right: 4px;
-  margin-top: 32px;
-  box-sizing: border-box;
-  border-bottom: 1px solid rgba(117, 117, 117, 0.5);
-
-
+    width: 308px;
+    height: 48px;
+    margin-left: 8px;
+    margin-right: 4px;
+    margin-top: 32px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.5);
 }
 
 .search__img-logo {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
 }
 
 .search__input {
-  display: inline-block;
-  width: 182px;
-  height: 24px;
-  font-size: 13px;
-  line-height: 24px;
-  text-align: left;
-  color: #626262;
+    display: inline-block;
+    width: 182px;
+    height: 24px;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: left;
+    color: #626262;
 }
 
 .search__input-text {
-  width: 184px;
-  border: none;
-
-
+    width: 184px;
+    border: none;
 }
-
 
 .geotag-panel {
-    
-  margin-top: 24px;
-  font-size: 11px;
-  line-height: 13px;
-  
+    margin-top: 24px;
+    font-size: 11px;
+    line-height: 13px;
 }
 
-
 .geotag-form__label {
-    display: inline-block;  
+    display: inline-block;
     font-size: 11px;
     line-height: 13px;
     color: #626262;
     margin-left: 6px;
     margin-right: 5px;
-   
 }
 
-.geotag-form__time, .geotag-form__location {
-  display: block; 
-  font-size: 13px;
-  line-height: 24px;
-  color: #1d1d1d;
-  border: 1px solid #e0e0e0;
-  border-radius: 2px;
-  padding: 4px 12px;
-  margin-top: 8px;
-  appearance: none;
-  -moz-appearance: none;
- }
+.geotag-form__time,
+.geotag-form__location {
+    display: block;
+    font-size: 13px;
+    line-height: 24px;
+    color: #1d1d1d;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    padding: 4px 12px;
+    margin-top: 8px;
+    appearance: none;
+    -moz-appearance: none;
+}
 
-  .asap {
-      line-height: 50px;
-      padding-top: 6px;
-      padding-bottom: 5px;
-  }
+.asap {
+    line-height: 50px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
 
 .geotag-form__location {
     width: 149px;
@@ -352,9 +326,7 @@ h4 {
     font-size: 13px;
     line-height: 21px;
     margin-left: 8px;
-    
 }
-
 
 .rest-card {
     margin-left: 7px;
@@ -362,12 +334,11 @@ h4 {
 }
 
 .footer {
-    
     background-color: #262626;
     color: #fff;
-    height: 862px;;
+    height: 862px;
+    ;
     margin-top: 48px;
-
 }
 
 .footer__logo {
@@ -380,11 +351,10 @@ h4 {
     margin-top: 32px;
     margin-left: 8px;
     margin-right: 8px;
-
 }
 
 .footer__select {
-    display: block; 
+    display: block;
     font-size: 13px;
     line-height: 15px;
     color: #fff;
@@ -449,8 +419,8 @@ h4 {
     position: relative;
 }
 
-.footer__copyright-img{
+.footer__copyright-img {
     position: absolute;
-    top: 65px; 
+    top: 65px;
     right: 8px;
 }
